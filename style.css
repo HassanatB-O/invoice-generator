@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    background: #F5F5F5;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: #2B283A;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+#header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+button{
+    padding: 9px 13px;
+    border-radius: 7px;
+    border: 1px solid #D5D4D8;
+    background: white;
+}
+div#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+button:focus{
+    border: 2px solid black;
+}
+div#body{
+    padding: 17px;
+    border-bottom: 1px solid #C3C6DB;
+    display: flex;
+    flex-direction: column;
+}
+div#tasks{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    font-size: 16px;
+    height: 10px;
+}
+div#payment{    
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    font-size: 16px;
+}
+p#remove-wash{
+    color: #918E9B;
+    margin-left: 6px;
+    cursor: pointer;
+}
+p#remove-mow{
+    color: #918E9B;
+    cursor: pointer;
+}
+p#remove-pull{
+    color: #918E9B;
+    cursor: pointer;
+}
+div#body1{
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+}
+p#money{
+    font-size: 36px;
+    font-weight: 600;
+    color: #918E9B;
+    text-align: right;
+    line-height: 32px;
+    padding: 7px;
+}
+button#send-el{
+    background: #3770ED;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 17px 9px 15px;
+    width: 380px;
+    height: 45px;
+    margin: auto;
+    display: block;
+}

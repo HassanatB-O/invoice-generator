@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Invoice Generator</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Invoice Creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+    </div>
+    <div id="buttons">
+        <button id="wash-el">Wash Car: $10</button>
+        <button id="mow-el">Mow Lawn: $20</button>
+        <button id="pull-el">Pull Weeds: $30</button>
+    </div>
+    <div id="body">
+        <div id="tasks">
+            <p>TASK</p>
+            <p>TOTAL</p>
+        </div>
+        <div id="tasks">
+            <p id="wash-car"></p>
+            <p id="remove-wash"></p>
+            <p id="amount-car"></p>
+        </div>
+        <div id="tasks">
+            <p id="mow-lawn"></p>
+            <p id="remove-mow"></p>
+            <p id="amount-lawn"></p>
+        </div>
+        <div id="tasks">
+            <p id="pull-weeds"></p>
+            <p id="remove-pull"></p>
+            <p id="amount-weed"></p>
+        </div>
+    </div>
+    <div id="body1">
+        <div id="payment">
+        <p>NOTES</p>
+        <p>TOTAL AMOUNT</p>
+    </div>
+    <div id="payment">
+        <p id="pay-type"></p>
+        <p id="money">$0</p>
+    </div>
+    </div>
+    <button id="send-el">Send Invoice</button>
+    <script src="main.js"></script>
+</body>
+</html>
