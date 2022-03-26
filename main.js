@@ -57,40 +57,47 @@ removeWashEl.addEventListener("click", function(){
     delete totalAmounts[0]
     totalSum = totalAmounts.reduce((partialSum, a) => partialSum + a, 0)
     totalAmount.textContent = `$${totalSum}`
+    washCarEl.textContent = ``
+    washCarAmount.textContent = ``
+    removeWashEl.textContent = ``
 })
 
 removeMowEl.addEventListener("click", function(){
     delete totalAmounts[1]
     totalSum = totalAmounts.reduce((partialSum, a) => partialSum + a, 0)
     totalAmount.textContent = `$${totalSum}`
+    mowLawnEl.textContent = ``
+    mowLawnAmount.textContent = ``
+    removeMowEl.textContent = ``
 })
 
 removePullEl.addEventListener("click", function(){
     delete totalAmounts[2]
     totalSum = totalAmounts.reduce((partialSum, a) => partialSum + a, 0)
     totalAmount.textContent = `$${totalSum}`
-    console.log(taskPullEl)
+    pullWeedEl.textContent = ``;
+    pullWeedAmount.textContent = ``;
+    removePullEl.textContent = ``
 })
 
 
 sendEl.addEventListener("click", function(){
-    washCarEl.textContent = ""
-    washCarAmount.textContent = ""
+    washCarEl.textContent = ``
+    washCarAmount.textContent = ``
     
-    mowLawnEl.textContent = ""
-    mowLawnAmount.textContent = ""
+    mowLawnEl.textContent = ``
+    mowLawnAmount.textContent = ``
 
-    pullWeedEl.textContent = ""
-    pullWeedAmount.textContent = ""
+    pullWeedEl.textContent = ``
+    pullWeedAmount.textContent = ``
 
-    paymentType.textContent = ""
+    paymentType.textContent = ``
 
     totalAmounts = []
     totalAmount.textContent = "$0";
     
-    removeWashEl.textContent = ""
-    removeMowEl.textContent = ""
-    removePullEl.textContent = ""
+    removeWashEl.textContent = ``
+    removeMowEl.textContent = ``
+    removePullEl.textContent = ``
 })
-
 
